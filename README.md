@@ -94,57 +94,25 @@ make
 ```
 
 ---
-
-## Screenshots
+## 📸 Screenshots
 
 ### Phase 1: Object Storage
+![Test Objects](screenshots/phase1A_test_objects.png)
+![Object Storage](screenshots/phase1B_object_storage.png)
 
-![Phase 1](screenshots/screenshot1A.png)
+### Phase 2: Tree Objects
+![Test Tree](screenshots/phase2A_test_tree.png)
+![Tree Raw](screenshots/phase2B_tree_raw.png)
 
+### Phase 3: Index (Staging Area)
+![Status Output](screenshots/phase3A_status.png)
+![Index File](screenshots/phase3B_index.png)
+
+### Phase 4: Commits and History
+![Commit Log](screenshots/phase4A_log.png)
+![Object Growth](screenshots/phase4B_objects.png)
+![HEAD and Refs](screenshots/phase4C_refs.png)
 ---
-
-### Phase 2: Tree Structure
-
-![Phase 2](screenshots/screenshot2A.png)
-
----
-
-### Phase 2: Object Hex Dump
-
-![Phase 2 Hex](screenshots/screenshot2B.png)
-
----
-
-### Phase 3: Status Before Adding
-
-![Phase 3A](screenshots/screenshot3A.png)
-
----
-
-### Phase 3: Staged Files
-
-![Phase 3B](screenshots/screenshot3B.png)
-
----
-
-### Phase 3: Index Content
-
-![Phase 3C](screenshots/screenshot3C.png)
-
----
-
-### Phase 4: Commit Log
-
-![Phase 4A](screenshots/screenshot4A.png)
-
----
-
-### Phase 4: Object Growth
-
-![Phase 4B](screenshots/screenshot4B.png)
-
----
-
 ## Internal Working
 
 * Files are stored as SHA-256 hashed objects
